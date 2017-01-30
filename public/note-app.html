@@ -6,7 +6,7 @@
     <template>
         <style include="note-app-shared-styles">
             paper-fab {
-                z-index: 99999!important;
+                z-index: 99999 !important;
             }
         </style>
         <na-toolbar
@@ -71,7 +71,7 @@
 
             behaviors: [Polymer.NoteAppBehavior],
 
-            signIn: function() {
+            signIn: function () {
                 this.$.auth.signInWithPopup();
             },
 
@@ -79,7 +79,7 @@
                 return '/notes/' + this.user.uid;
             },
 
-            toEditableId: function(noteId) {
+            toEditableId: function (noteId) {
                 return this.notesPath + '/' + noteId;
             },
 
