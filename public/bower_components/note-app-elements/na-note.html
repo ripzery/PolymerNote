@@ -98,9 +98,11 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
     </style>
     <template is="dom-if" if="[[editable]]">
       <input is="iron-input"
+             placeholder="Title"
           bind-value="{{title}}">
       </input>
       <iron-autogrow-textarea
+              placeholder="description"
           bind-value="{{body}}">
       </iron-autogrow-textarea>
     </template>
