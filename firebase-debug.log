@@ -1,0 +1,13 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] CLI Version:  3.2.0
+[debug] Platform:     darwin
+[debug] Node Version: v6.4.0
+[debug] Time:         Mon Jan 30 2017 16:11:26 GMT+0700 (ICT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[info] Starting Firebase development server...
+[info] 
+[info] Project Directory: /Users/ripzery/PolymerProjects/PolymerNote
+[info] 
+[info] Server listening at: http://localhost:5000

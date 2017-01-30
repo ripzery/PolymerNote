@@ -4,7 +4,11 @@
 
 <dom-module id="note-app">
     <template>
-        <style include="note-app-shared-styles"></style>
+        <style include="note-app-shared-styles">
+            paper-fab {
+                z-index: 99999!important;
+            }
+        </style>
         <na-toolbar
                 signed-in="[[signedIn]]"
                 on-sign-out="signOut">
